@@ -1,26 +1,25 @@
 # PhysicsML
 
-Aplicaciones de Machine Learning (XGBoost + SHAP) a distintos ámbitos de la
-física. Cada subproyecto vive en su propio repositorio con sus dependencias y
-notebooks independientes.
+Machine Learning applications (XGBoost + SHAP) across different domains of
+physics. Each subproject lives in its own repository with isolated dependencies
+and notebooks.
 
-## Proyectos
+## Projects
 
-| Proyecto | Ámbito | Estado |
-|----------|--------|--------|
-| [CosmoML](https://github.com/AlejandroMirRamos/CosmoML)   | Cosmología — SNe Ia (Pantheon+SH0ES, DES SN5YR) y BAO (DESI DR2) en ΛCDM, wCDM, w₀wₐCDM | en desarrollo |
-| [AlpsML](https://github.com/AlejandroMirRamos/AlpsML)     | Axion-like particles — modelos UV con `alpaca` y MCMC | hecho |
-| [BMesonsML](https://github.com/AlejandroMirRamos/BMesonsML) | Física de mesones B — likelihoods con `flavio`/`wilson` | pendiente |
+| Project | Domain | Status |
+|---------|--------|--------|
+| [CosmoML](https://github.com/AlejandroMirRamos/CosmoML)   | Cosmology — SNe Ia (Pantheon+SH0ES, DES SN5YR) and BAO (DESI DR2) under ΛCDM, wCDM, w₀wₐCDM | in progress |
+| [AlpsML](https://github.com/AlejandroMirRamos/AlpsML)     | Axion-like particles — UV models with `alpaca` and MCMC | done |
+| [BMesonsML](https://github.com/AlejandroMirRamos/BMesonsML) | B meson physics — likelihoods with `flavio` / `wilson` | planned |
 
-## Pila común
+## Common stack
 
-Todos los subproyectos comparten el patrón ML:
+All subprojects share the same ML pattern:
 
-- **XGBoost** como surrogate del χ² (o de un target derivado).
-- **SHAP** para interpretar la importancia y degeneraciones entre parámetros.
-- Notebooks Jupyter como interfaz, con la lógica reutilizable en un paquete
-  importable por subproyecto.
+- **XGBoost** as a surrogate for χ² (or a derived target).
+- **SHAP** to interpret feature importance and parameter degeneracies.
+- Jupyter notebooks as the interface, with reusable logic in an importable
+  package per subproject.
 
-Las dependencias específicas de cada dominio (`astropy`, `alpaca`, `flavio`,
-`wilson`, …) se mantienen aisladas en el `requirements.txt` / `pyproject.toml`
-de cada repo.
+Domain-specific dependencies (`astropy`, `alpaca`, `flavio`, `wilson`, …) are
+kept isolated in each repo's `requirements.txt` / `pyproject.toml`.
