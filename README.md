@@ -6,11 +6,11 @@ and notebooks.
 
 ## Projects
 
-| Project | Domain | Status |
-|---------|--------|--------|
-| [CosmoML](https://github.com/AlejandroMirRamos/CosmoML)   | Cosmology — SNe Ia (Pantheon+SH0ES, DES SN5YR) and BAO (DESI DR2) under ΛCDM, wCDM, w₀wₐCDM | in progress |
-| [AlpsML](https://github.com/AlejandroMirRamos/AlpsML)     | Axion-like particles — UV models with `alpaca` and MCMC | done |
-| [BMesonsML](https://github.com/AlejandroMirRamos/BMesonsML) | B meson physics — likelihoods with `flavio` / `wilson` | planned |
+| Project | Domain |
+|---------|--------|
+| [CosmoML](https://github.com/AlejandroMirRamos/CosmoML)   | Cosmology — SNe Ia (Pantheon+SH0ES, DES SN5YR) and BAO (DESI DR2) under ΛCDM, wCDM, w₀wₐCDM |
+| [AlpsML](https://github.com/AlejandroMirRamos/AlpsML)     | Axion-like particles — UV models with `alpaca` and MCMC |
+| [BMesonsML](https://github.com/AlejandroMirRamos/BMesonsML) | B meson physics — likelihoods with `flavio` / `wilson` |
 
 ## Common stack
 
