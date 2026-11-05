@@ -7,6 +7,8 @@ XGBoost surrogate of the (generally non-Gaussian) log-likelihood accelerates
 parameter-space exploration by several orders of magnitude while SHAP values keep
 the inference physically interpretable.
 
+**Paper:** J. Alda, J. Asorey, A. Mir, S. Peñaranda, *Physically Consistent Parameter Inference: Transparent Machine-Learning Emulation in High Energy Physics and Cosmology*, [Universe **12** (2026) 238](https://doi.org/10.3390/universe12080238) · [arXiv:2607.12726](https://arxiv.org/abs/2607.12726)
+
 Each subproject lives in its own repository with isolated dependencies and
 provides the full pipeline used in the paper: training-set construction, XGBoost
 surrogate training, SHAP analysis and MCMC sampling of the emulated posterior.
